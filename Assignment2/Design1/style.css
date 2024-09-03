@@ -1,0 +1,55 @@
+body{
+    background-color: #cbdae7;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    background-color: #cde2f5;
+   padding: 20px;
+    height: 80vh;
+    width: 25vw;
+    border-radius: 60px;
+    margin-top: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    align-items: center;
+}
+.google {
+    margin-top: 20px;
+    display: flex;
+
+}
+.google img{
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+}
+.designer {
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.socialmedia img{
+    width: 40px;
+    height: 40px;
+    gap: 30px;
+}
+.add{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    padding: 0px;
+    text-align: center;
+}
