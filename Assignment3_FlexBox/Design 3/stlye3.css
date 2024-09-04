@@ -1,0 +1,146 @@
+body {
+    background-color:white;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    padding-right:0px ;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid white;
+    background-color: white;
+    height: 15vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav1 ul {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    gap: 20px;
+}
+
+.nav1 li {
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 200px;
+    height: 70px;
+    padding: 30px;
+}
+
+.navImage img {
+    width: 15px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.navImage {
+    display: flex;
+    align-items: center;
+}
+
+.nav2 button {
+    background-color: transparent;
+    border:ipx solid gray;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+}
+.main {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-around;
+    background-color: white;
+    width: 55vw;
+    padding: 60px;
+}
+.aside {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: white;
+    width:30vw;
+}
+.all-body{
+    display: flex;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.aside img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px 10px 0 0;
+}
+.text {
+    font-size: 18px;
+    color: black;
+}
+.text h1 {
+    font-size: 60px;
+    color: black;
+}
+.button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.clientIcons{
+    display: flex;
+    gap: 60px;
+}
+.clientIcons img{
+    height: 20px;
+    width: 100px;
+   
+}
+.about {
+    display: flex;
+    justify-content: center;
+}
+.regi{
+    
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+}
+.services {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+a li {
+    list-style: none; 
+    cursor: pointer;  
+}
