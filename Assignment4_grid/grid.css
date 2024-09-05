@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(212, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500 ,600;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container{
+    height: 60vh;
+    gap: 20px;
+    display: grid;
+    grid-template-columns:3fr 1fr; 
+    border: none;
+    margin-top: 15vh;
+    width: 70vw;
+
+}
+.left-section {
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+   
+}
+
+.right-section {
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: grid;
+    color: hsl(219, 29%, 14%);
+}
+.top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.bottom{
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    gap: 10px;
+}
+.lefttop{
+background-color: hsl(263, 55%, 52%);
+border-radius:10px;
+color: hsl(0, 0%, 81%);
+background-image: url(./images/bg-pattern-quotation.svg);
+background-repeat: no-repeat;
+background-position: right calc(150px) top calc( 90px);
+
+}
+.righttop{
+background-color: hsl(217, 19%, 35%);
+border-radius: 10px;
+color: hsl(0, 0%, 81%);
+
+}
+.bottomright{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    color:hsl(0, 0%, 81%);
+}
+.bottomleft{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    color: hsl(219, 29%, 14%);
+}
+.kira img{
+    border-radius:60px;
+    height: 60px;
+    width: 60px;
+    padding: 30px;
+}
+.kira{
+    display:flex;
+    flex-direction: row;
+   margin-top: auto;
+   
+
+}
+.kira p{
+    margin-top: 50px;
+}
+.KiraContent{
+    padding: 20px;
+}
+.cont{
+    padding: 20px;
+    margin-left: 20px;
+}
+.jona{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}   
+.jona img{
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.jona p{
+    margin-top: auto;
+}
+.dan{
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.dan img{
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.dan p{
+    margin-top: 50px;
+}
+.janaette{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.janaette img{
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.janaette p{
+    margin-top: 50px;
+}
+.patto{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.patto img{
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.patto p{
+    margin-top: 50px;
+}
+.Quote{
+    display: flex;
+    flex-direction: row;
+}
