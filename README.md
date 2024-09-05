@@ -12,4 +12,4 @@
 ![alt text](./resources/image-3.png)
 
 **assignment 4 Gridbox**
-![alt text](image.png)
+![alt text](./resources/grid.png)
